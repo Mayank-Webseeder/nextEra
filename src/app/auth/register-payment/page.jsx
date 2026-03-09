@@ -32,11 +32,6 @@ export default function RegisterPayment() {
 
                 <Header />
 
-                {/* Video */}
-                <video autoPlay muted loop className="absolute inset-0 w-full h-full object-cover">
-                    <source src="/bg.mp4" type="video/mp4" />
-                </video>
-
                 {/* Overlay */}
                 <div className="absolute inset-0 bg-black/70 backdrop-blur-sm" />
 

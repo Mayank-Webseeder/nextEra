@@ -17,26 +17,12 @@ export default function ForgotPasswordPage() {
     "w-full px-4 py-3 rounded-lg bg-black/40 border border-white/15 focus:border-green-400 focus:outline-none placeholder:text-white/60";
 
   return (
-    <div className="min-h-screen flex flex-col text-white">
+    <div className="min-h-screen flex flex-col text-white bg-black">
 
       {/* ===== VIDEO SECTION ===== */}
       <div className="relative overflow-hidden">
 
         <Header />
-
-        {/* Background Video */}
-        <video
-          autoPlay
-          muted
-          loop
-          playsInline
-          className="absolute inset-0 w-full h-full object-cover"
-        >
-          <source src="/bg.mp4" type="video/mp4" />
-        </video>
-
-        {/* Overlay */}
-        <div className="absolute inset-0 bg-black/70 backdrop-blur-sm" />
 
         {/* Content */}
         <div className="relative z-10 py-8">

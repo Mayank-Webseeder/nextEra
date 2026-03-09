@@ -41,24 +41,11 @@ export default function LoginPage() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col text-white">
+    <div className="min-h-screen flex flex-col text-white bg-black">
 
       <div className="relative overflow-hidden">
 
         <Header />
-
-        <video
-          autoPlay
-          muted
-          loop
-          playsInline
-          className="absolute inset-0 w-full h-full object-cover"
-        >
-          <source src="/bg.mp4" type="video/mp4" />
-        </video>
-
-        <div className="absolute inset-0 bg-black/70 backdrop-blur-sm" />
-
         <div className="relative z-10 py-8">
 
           <main className="flex items-center justify-center px-4 pt-24 pb-20">

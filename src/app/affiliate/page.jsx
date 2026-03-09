@@ -22,24 +22,11 @@ import CTA from "@/components/CTA";
 
 export default function AffiliatePage() {
     return (
-        <div className="min-h-screen flex flex-col text-white">
+        <div className="min-h-screen flex flex-col text-white bg-black">
             <Header />
 
             {/* ====================== HERO SECTION ====================== */}
-            <section className="relative flex-grow flex items-center justify-center overflow-hidden">
-                <div className="absolute inset-0">
-                    <video
-                        autoPlay
-                        muted
-                        loop
-                        playsInline
-                        className="w-full h-full object-cover"
-                    >
-                        <source src="/bg.mp4" type="video/mp4" />
-                    </video>
-                    <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/80 to-black" />
-                </div>
-
+            <section className="relative flex-grow flex items-center justify-center overflow-hidden ">
                 <div className="relative z-10 max-w-5xl mx-auto px-6 text-center mt-24">
                     <motion.h1
                         initial={{ opacity: 0, y: 40 }}

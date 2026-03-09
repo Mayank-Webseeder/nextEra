@@ -82,7 +82,7 @@ export default function Plans() {
           viewport={{ once: true }}
           className="text-center mb-14"
         >
-          <h2 className="text-4xl font-semibold text-white mt-2">
+          <h2 className="text-4xl font-semibold text-white mt-4">
             Flexible Plans for <span className="text-green-400">Every Trader</span>
           </h2>
           <p className="text-white/60 mt-3">

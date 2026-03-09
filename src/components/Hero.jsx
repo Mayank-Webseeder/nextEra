@@ -205,18 +205,8 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="relative min-h-screen text-white overflow-hidden overflow-x-hidden"
+      className="relative min-h-screen text-white overflow-hidden overflow-x-hidden bg-black"
     >
-      <video
-        autoPlay
-        muted
-        loop
-        playsInline
-        className="absolute inset-0 w-full h-full object-cover"
-        src="/bg.mp4"
-      />
-
-      <div className="absolute inset-0 bg-black/70 backdrop-blur-[2px]" />
 
       {/* Main content */}
       <div className="relative z-10 max-w-8xl mx-auto px-6 lg:px-10 pt-20 sm:pt-24 pb-20 md:pb-24 grid xl:grid-cols-2 gap-8 xl:gap-12 items-center min-h-[calc(100vh-120px)]">
@@ -318,8 +308,6 @@ export default function Hero() {
           </div>
         </motion.div>
       </div>
-
-     
       <div className="absolute bottom-0 left-0 right-0 z-20 border-t border-white/10 bg-black/80">
         <div className="tradingview-widget-container" ref={tickerRef}>
           <div className="tradingview-widget-container__widget" />
